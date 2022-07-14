@@ -10,11 +10,34 @@
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/bin
+
 # Command Line History (newest to oldest):
 :x
-|2,0,1648813269,,"x"
+|2,0,1657787968,,"x"
+:;
+|2,0,1656795330,,";"
+:x!
+|2,0,1651153032,,"x!"
+:.,$!
+|2,0,1650371050,,".,$!"
+:wq
+|2,0,1649796599,,"wq"
+:wq!
+|2,0,1649444019,,"wq!"
+:xc
+|2,0,1649442981,,"xc"
+:X
+|2,0,1649166539,,"X"
 
 # Search String History (newest to oldest):
+?/bin/bash
+|2,1,1650371050,47,"bin/bash"
+? \<u\>
+|2,1,1650371050,,"\\<u\\>"
+? \<endif\>
+|2,1,1649784639,,"\\<endif\\>"
 
 # Expression History (newest to oldest):
 
@@ -23,159 +46,1000 @@
 # Debug Line History (newest to oldest):
 
 # Registers:
+""-	CHAR	0
+	}
+|3,1,36,0,1,0,1649774354,"}"
 
 # File marks:
-'0  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,48,2,22,1648813269,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
-'1  1  0  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,49,1,0,1648813147,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
-'2  1  0  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,50,1,0,1648813147,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
-'3  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,51,2,22,1648812381,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
-'4  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,52,2,22,1648812381,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
-'5  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,53,2,22,1648812381,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
-'6  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,54,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
-'7  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,55,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+'0  1  0  ~/monty/.git/MERGE_MSG
+|4,48,1,0,1657787968,"~/monty/.git/MERGE_MSG"
+'1  1  0  ~/monty/.git/MERGE_MSG
+|4,49,1,0,1657787934,"~/monty/.git/MERGE_MSG"
+'2  1  188  ~/monty/bf/1002-mul.bf
+|4,50,1,188,1657787873,"~/monty/bf/1002-mul.bf"
+'3  1  58  ~/monty/bf/1001-add.bf
+|4,51,1,58,1657787822,"~/monty/bf/1001-add.bf"
+'4  1  237  ~/monty/bf/1003-mul.bf
+|4,52,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+'5  1  57  ~/monty/bf/1000-school.bf
+|4,53,1,57,1657787688,"~/monty/bf/1000-school.bf"
+'6  1  0  ~/monty/.git/MERGE_MSG
+|4,54,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+'7  1  0  ~/monty/.git/MERGE_MSG
+|4,55,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+'8  6  3  ~/monty/bytecodes/swap.m
+|4,56,6,3,1657787358,"~/monty/bytecodes/swap.m"
+'9  6  3  ~/monty/bytecodes/sub.m
+|4,57,6,3,1657787332,"~/monty/bytecodes/sub.m"
 
 # Jumplist (newest first):
--'  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,39,2,22,1648813269,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
--'  1  0  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,39,1,0,1648813175,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
--'  1  0  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,39,1,0,1648813147,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
--'  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,39,2,22,1648812381,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
--'  2  22  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,39,2,22,1648812381,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
--'  1  0  /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-|4,39,1,0,1648812176,"/alx-system_engineering-devops/0x00-shell_basics/100-lets_move"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  7  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,7,1648746782,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648746408,"/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  2  8  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,2,8,1648738780,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
--'  1  0  ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-|4,39,1,0,1648738646,"~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787968,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787934,"~/monty/.git/MERGE_MSG"
+-'  1  188  ~/monty/bf/1002-mul.bf
+|4,39,1,188,1657787873,"~/monty/bf/1002-mul.bf"
+-'  1  188  ~/monty/bf/1002-mul.bf
+|4,39,1,188,1657787873,"~/monty/bf/1002-mul.bf"
+-'  1  188  ~/monty/bf/1002-mul.bf
+|4,39,1,188,1657787873,"~/monty/bf/1002-mul.bf"
+-'  1  188  ~/monty/bf/1002-mul.bf
+|4,39,1,188,1657787873,"~/monty/bf/1002-mul.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  58  ~/monty/bf/1001-add.bf
+|4,39,1,58,1657787822,"~/monty/bf/1001-add.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  237  ~/monty/bf/1003-mul.bf
+|4,39,1,237,1657787773,"~/monty/bf/1003-mul.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  57  ~/monty/bf/1000-school.bf
+|4,39,1,57,1657787688,"~/monty/bf/1000-school.bf"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  1  0  ~/monty/.git/MERGE_MSG
+|4,39,1,0,1657787515,"~/monty/.git/MERGE_MSG"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
+-'  6  3  ~/monty/bytecodes/swap.m
+|4,39,6,3,1657787358,"~/monty/bytecodes/swap.m"
 
 # History of marks within files (newest to oldest):
 
-> /alx-system_engineering-devops/0x00-shell_basics/100-lets_move
-	*	1648813250	0
-	"	2	22
-	^	2	23
-	.	2	22
-	+	2	68
-	+	2	22
+> ~/monty/.git/MERGE_MSG
+	*	1657787965	0
+	"	1	0
 
-> /alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-	*	1648746781	0
-	"	2	7
-	^	2	8
-	.	2	8
-	+	2	38
-	+	2	8
+> ~/monty/bf/1002-mul.bf
+	*	1657787870	0
+	"	1	188
+	^	1	189
+	.	1	188
+	+	1	188
 
-> ~/alx-system_engineering-devops/0x01-shell_permissions/0-iam_betty
-	*	1648738777	0
-	"	2	8
-	^	2	9
-	.	2	8
-	+	1	13
+> ~/monty/bf/1001-add.bf
+	*	1657787819	0
+	"	1	58
+	^	1	59
+	.	1	58
+	+	1	58
+
+> ~/monty/bf/1003-mul.bf
+	*	1657787770	0
+	"	1	237
+	^	1	238
+	.	1	237
+	+	1	237
+
+> ~/monty/bf/1000-school.bf
+	*	1657787685	0
+	"	1	57
+	^	1	58
+	.	1	57
+	+	1	57
+
+> ~/monty/bytecodes/swap.m
+	*	1657787356	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
+
+> ~/monty/bytecodes/sub.m
+	*	1657787329	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
+
+> ~/monty/bytecodes/stack_queue.m
+	*	1657787299	0
+	"	10	3
+	^	10	4
+	.	10	3
+	+	10	3
+
+> ~/monty/bytecodes/rotl.m
+	*	1657787255	0
+	"	13	3
+	^	13	4
+	.	13	3
+	+	13	3
+
+> ~/monty/bytecodes/push_pall.m
+	*	1657787214	0
+	"	4	3
+	^	4	4
+	.	4	3
+	+	4	3
+
+> ~/monty/bytecodes/pstr.m
+	*	1657787178	0
+	"	17	3
+	^	17	4
+	.	17	3
+	+	17	3
+
+> ~/monty/bytecodes/pop.m
+	*	1657787145	0
+	"	10	3
+	^	10	4
+	.	10	3
+	+	10	3
+
+> ~/monty/bytecodes/pint.m
+	*	1657787113	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
+
+> ~/monty/bytecodes/pchar.m
+	*	1657787077	0
+	"	4	4
+	^	4	5
+	.	4	4
+	+	4	4
+
+> ~/monty/bytecodes/add.m
+	*	1657787040	0
+	"	6	3
+	^	6	4
+	.	6	3
+	+	6	3
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/101-make_me_win.sh
+	*	1657743628	0
+	"	2	102
+	^	2	103
+	.	2	102
+	+	3	26
+	+	2	102
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/giga.c
+	*	1657743387	0
+	"	10	0
+	^	10	1
+	.	10	0
+	+	10	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/mul.c
+	*	1657735996	0
+	"	5	11
+	^	5	12
+	.	5	11
+	+	6	0
+	+	5	11
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/arithmetic.h
+	*	1657735838	0
+	"	10	21
+	^	10	22
+	.	10	21
+	+	10	21
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/add.c
+	*	1657735790	0
+	"	3	20
+	^	3	21
+	.	3	21
+	+	5	15
+	+	6	0
+	+	3	21
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/mod.c
+	*	1657735561	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/div.c
+	*	1657735491	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/sub.c
+	*	1657735331	0
+	"	6	0
+	^	6	1
+	.	7	0
+	+	7	0
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/100-tests.py
+	*	1657700188	0
+	"	11	49
+	^	11	50
+	.	11	49
+	+	11	49
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/1-create_dynamic_lib.sh
+	*	1657696938	0
+	"	3	27
+	^	3	28
+	.	3	27
+	+	3	27
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/main.h
+	*	1657664026	0
+	"	23	16
+	^	23	17
+	.	23	16
+	+	20	43
+	+	23	16
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/libtest.h
+	*	1657658248	0
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	14
+
+> ~/alx-low_level_programming/0x18-dynamic_libraries/libtest.c
+	*	1657658138	0
+	"	6	0
+	^	6	1
+	.	6	0
+	+	6	0
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/12-roman_to_int.py
+	*	1657228875	0
+	"	13	17
+	^	13	18
+	.	13	17
+	+	13	17
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/11-multiply_list_map.py
+	*	1657228799	0
+	"	3	54
+	^	3	55
+	.	3	54
+	+	3	54
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/103-tests.py
+	*	1657228734	0
+	"	31	25
+	^	31	26
+	.	31	25
+	+	31	25
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/103-python.c
+	*	1657228681	0
+	"	49	0
+	^	49	1
+	.	49	0
+	+	49	0
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/102-complex_delete.py
+	*	1657228602	0
+	"	6	22
+	^	6	23
+	.	6	22
+	+	6	22
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/101-square_matrix_map.py
+	*	1657228517	0
+	"	3	74
+	^	3	75
+	.	3	74
+	+	3	74
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/100-weight_average.py
+	*	1657228447	0
+	"	10	30
+	^	10	31
+	.	10	30
+	+	10	30
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/10-best_score.py
+	*	1657228353	0
+	"	14	15
+	^	14	16
+	.	14	15
+	+	14	15
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/9-multiply_by_2.py
+	*	1657228284	0
+	"	6	15
+	^	6	16
+	.	6	15
+	+	6	15
+
+> ~/alx-higher_level_programming/0x04-python-more_data_structures/8-simple_delete.py
+	*	1657228205	0
+	"	5	22
+	^	5	23
+	.	5	22
+	+	5	22
+
+> ~/alx-higher_level_programming/.git/MERGE_MSG
+	*	1657227871	0
+	"	1	0
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/7-update_dictionary.py
+	*	1657227108	0
+	"	9	22
+	^	9	23
+	.	9	22
+	+	9	22
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/7-update_dictionary.py7-update_dictionary.py
+	*	1657227013	0
+	"	9	22
+	^	9	23
+	.	9	22
+	+	9	22
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/6-print_sorted_dictionary.py
+	*	1657226904	0
+	"	4	51
+	^	4	52
+	.	4	51
+	+	4	51
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/5-number_keys.py
+	*	1657226812	0
+	"	3	34
+	^	3	35
+	.	3	34
+	+	3	34
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/4-only_diff_elements.py
+	*	1657226728	0
+	"	3	23
+	^	3	24
+	.	3	23
+	+	3	23
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/3-common_elements.py
+	*	1657226667	0
+	"	3	23
+	^	3	24
+	.	3	23
+	+	3	23
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/2-uniq_add.py
+	*	1657226603	0
+	"	7	13
+	^	7	14
+	.	7	13
+	+	7	13
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/1-search_replace.py
+	*	1657226504	0
+	"	9	14
+	^	9	15
+	.	9	14
+	+	9	14
+
+> ~/alx-low_level_programming/0x04-python-more_data_structures/0-square_matrix_simple.py
+	*	1657226437	0
+	"	4	20
+	^	4	21
+	.	4	20
+	+	4	20
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/1-calculation.py
+	*	1656796700	0
+	"	13	48
+	^	13	49
+	.	13	49
+	+	13	49
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/variable_load_5.py
+	*	1656796003	0
+	"	1	0
+	^	4	3
+	.	4	2
+	+	4	2
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/calculator_1.py
+	*	1656795950	0
+	"	43	20
+	^	43	21
+	.	43	20
+	+	43	20
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/add_0.py
+	*	1656795898	0
+	"	10	17
+	^	10	18
+	.	10	17
+	+	10	17
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/5-variable_load.py
+	*	1656795783	0
+	"	7	11
+	^	7	12
+	.	7	11
+	+	7	11
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/4-hidden_discovery.py
+	*	1656795717	0
+	"	10	22
+	^	10	23
+	.	10	22
+	+	10	22
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/3-infinite_add.py
+	*	1656795615	0
+	"	10	28
+	^	10	29
+	.	10	28
+	+	10	28
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/2-args.py
+	*	1656795486	0
+	"	15	53
+	^	15	54
+	.	15	53
+	+	15	53
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/103-fast_alphabet.py
+	*	1656795411	0
+	"	3	28
+	^	3	29
+	.	3	28
+	+	3	28
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/102-magic_calculation.py
+	*	1656795332	0
+	"	14	24
+	^	14	25
+	.	14	24
+	+	14	24
+
+> ~/alx-higher_level_programming/0x02-python-import_modules/101-easy_print.py
+	*	1656795221	0
+	"	2	59
+	^	2	60
+	.	2	59
+	+	2	59
+
+> ~/simple_shell/AUTHORS
+	*	1654698565	0
+	"	4	10
+	^	4	11
+	.	4	10
+	+	4	10
+
+> ~/alx-low_level_programming/0x15-file_io/100-elf_header.c
+	*	1654124948	0
+	"	301	0
+	^	301	1
+	.	301	0
+	+	301	0
+
+> ~/alx-low_level_programming/0x15-file_io/3-cp.c
+	*	1654124879	0
+	"	88	0
+	^	88	1
+	.	88	0
+	+	88	0
+
+> ~/alx-low_level_programming/0x15-file_io/2-append_text_to_file.c
+	*	1654124820	0
+	"	33	0
+	^	33	1
+	.	33	0
+	+	33	0
+
+> ~/alx-low_level_programming/0x15-file_io/1-create_file.c
+	*	1654124758	0
+	"	35	0
+	^	35	1
+	.	35	0
+	+	35	0
+
+> ~/alx-low_level_programming/0x15-file_io/0-read_textfile.c
+	*	1654124689	0
+	"	47	0
+	^	47	1
+	.	47	0
+	+	47	0
+
+> ~/alx-low_level_programming/0x15-file_io/main.h
+	*	1654124644	0
+	"	16	5
+	^	16	6
+	.	16	5
+	+	16	5
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/100-main.c
+	*	1653935324	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	18	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/101-password
+	*	1653935267	0
+	"	1	15
+	^	1	16
+	.	1	15
+	+	1	15
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/100-get_endianness.c
+	*	1653935216	0
+	"	17	0
+	^	17	1
+	.	17	0
+	+	17	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/5-flip_bits.c
+	*	1653935142	0
+	"	23	0
+	^	23	1
+	.	23	0
+	+	23	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/4-clear_bit.c
+	*	1653935035	0
+	"	19	0
+	^	19	1
+	.	19	0
+	+	19	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/3-set_bit.c
+	*	1653934970	0
+	"	16	0
+	^	16	1
+	.	16	0
+	+	16	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/2-get_bit.c
+	*	1653934921	0
+	"	15	0
+	^	15	1
+	.	15	0
+	+	15	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/1-print_binary.c
+	*	1653934822	0
+	"	13	0
+	^	13	1
+	.	13	0
+	+	13	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/0-binary_to_uint.c
+	*	1653934758	0
+	"	36	0
+	^	36	1
+	.	36	0
+	+	36	0
+
+> ~/alx-low_level_programming/0x14-bit_manipulation/main.h
+	*	1653934637	0
+	"	13	16
+	^	13	17
+	.	13	16
+	+	13	16
+
+> ~/printf/.git/MERGE_MSG
+	*	1653072172	0
+	"	1	0
+
+> ~/printf/test/main.c
+	*	1652990001	0
+	"	22	0
+	^	22	1
+	.	17	5
+	+	1	0
 	+	2	0
-	+	1	12
-	+	2	8
+	+	17	5
+
+> ~/printf/test/main.h
+	*	1652989895	0
+	"	1	0
+
+> ~/printf/main.h
+	*	1652962281	0
+	"	7	5
+	^	7	6
+	.	5	22
+	+	7	5
+	+	5	22
+
+> ~/alx-low_level_programming/.git/MERGE_MSG
+	*	1652442078	0
+	"	1	0
+	^	2	0
+	.	2	0
+	+	2	0
+
+> ~/alx-low_level_programming/0x0F-function_pointers/function_pointers.h
+	*	1652440746	0
+	"	15	5
+	^	15	6
+	.	15	5
+	+	15	5
+
+> ~/alx-low_level_programming/0x0F-function_pointers/main.h
+	*	1652440432	0
+	"	1	0
+
+> ~/alx-low_level_programming/0x0D-preprocessor/4-sum.h
+	*	1652281782	0
+	"	6	5
+	^	6	6
+	.	6	5
+	+	6	5
+
+> ~/alx-low_level_programming/0x0D-preprocessor/3-function_like_macro.h
+	*	1652281625	0
+	"	6	5
+	^	6	6
+	.	6	5
+	+	6	5
+
+> ~/alx-low_level_programming/0x0D-preprocessor/2-main.c
+	*	1652281458	0
+	"	15	0
+	^	15	1
+	.	15	0
+	+	15	0
+
+> ~/alx-low_level_programming/0x0D-preprocessor/1-pi.h
+	*	1652281012	0
+	"	6	5
+	^	6	6
+	.	6	5
+	+	6	5
+
+> ~/alx-low_level_programming/0x0D-preprocessor/0-object_like_macro.h
+	*	1652280545	0
+	"	6	5
+	^	6	6
+	.	6	5
+	+	6	5
+
+> ~/alx-low_level_programming/0x0D-preprocessor/main.c
+	*	1652280171	0
+	"	18	0
+	^	18	1
+	.	18	0
+	+	17	62
+	+	2	18
+	+	3	18
+	+	4	0
+	+	5	0
+	+	9	2
+	+	12	0
+	+	13	12
+	+	15	24
+	+	16	23
+	+	14	0
+	+	17	16
+	+	18	0
+
+> ~/alx-low_level_programming/0x0D-preprocessor/main.h
+	*	1652279890	0
+	"	6	5
+	^	6	6
+	.	4	3
+	+	6	5
+	+	4	3
+
+> ~/alx-low_level_programming/0x0C-more_malloc_free/main.h
+	*	1652132794	0
+	"	11	5
+	^	11	6
+	.	4	18
+	+	11	5
+	+	9	72
+	+	4	22
+	+	5	0
+	+	2	14
+	+	4	18
+
+> ~/alx-low_level_programming/0x09-static_libraries/_putchar.c
+	*	1651522020	0
+	"	14	0
+	^	14	1
+	.	14	0
+	+	8	22
+	+	13	25
+	+	14	0
+
+> ~/alx-low_level_programming/0x09-static_libraries/create_static_lib.sh
+	*	1651517477	0
+	"	3	18
+	^	3	19
+	.	2	52
+	+	3	5
+	+	2	52
+
+> ~/alx-low_level_programming/0x09-static_libraries/main.h
+	*	1651514818	0
+	"	1	13
+	^	25	6
+	.	23	44
+	+	2	13
+	+	4	0
+	+	23	43
+	+	23	0
+	+	22	0
+	+	21	0
+	+	20	0
+	+	19	0
+	+	18	0
+	+	17	0
+	+	16	0
+	+	15	0
+	+	14	0
+	+	13	0
+	+	12	0
+	+	11	0
+	+	10	0
+	+	9	0
+	+	8	0
+	+	7	0
+	+	6	0
+	+	5	0
+	+	2	14
+	+	25	5
+	+	23	44
+
+> ~/alx-low_level_programming/0x08-recursion/5-sqrt_recursion.c
+	*	1651161298	0
+	"	31	0
+	^	31	1
+	.	9	23
+	+	4	26
+	+	20	0
+	+	19	27
+	+	23	34
+	+	31	0
+	+	9	23
+
+> ~/alx-low_level_programming/0x08-recursion/4-pow_recursion.c
+	*	1651160272	0
+	"	21	0
+	^	21	1
+	.	18	10
+	+	19	2
+	+	20	37
+	+	6	12
+	+	10	0
+	+	7	20
+	+	9	2
+	+	12	8
+	+	14	11
+	+	16	15
+	+	18	10
+	+	20	34
+	+	18	10
+
+> ~/alx-low_level_programming/0x08-recursion/3-factorial.c
+	*	1651157536	0
+	"	20	0
+	^	20	1
+	.	20	1
+	+	3	3
+	+	19	33
+	+	18	0
+	+	19	31
+	+	19	30
+	+	20	0
+	+	12	9
+	+	16	9
+	+	20	1
+
+> ~/alx-low_level_programming/0x08-recursion/2-strlen_recursion.c
+	*	1651156479	0
+	"	11	8
+	^	11	9
+	.	11	9
+	+	13	0
+	+	11	33
+	+	11	9
+
+> ~/alx-low_level_programming/0x08-recursion/1-print_rev_recursion.c
+	*	1651153875	0
+	"	14	0
+	^	14	1
+	.	14	0
+	+	11	30
+	+	14	0
+
+> ~/alx-low_level_programming/0x08-recursion/0-puts_recursion.c
+	*	1651153025	0
+	"	17	0
+	^	17	1
+	.	17	0
+	+	8	29
+	+	16	5
+	+	15	1
+	+	17	0
